@@ -25,10 +25,23 @@ Using knowledge of machine learning and neural networks create a binary classifi
 ## Results of Analysis
 - ### Data Processing
   - What variables are considered the targets for the model?
-  The target variable for the model is under the column "IS_SUCCESSFUL"
-  
+    - The target variable for the model is under the column "IS_SUCCESSFUL".  This column determines if a charity used their grants successfully. 
   - What variables are considered to be features for model?
+    - The variables that are considered to be features of the model are:
+      - Application Type
+      - Affiliation
+      - Classification
+      - Use_Case
+      - Organization
+      - Status
+      - Income Amt
+      - Special Considerations
+      - Ask Amount
   - What variables are neither targets nor features, and should be removed from the input data?
+    - The following variables were not considered as either targets or features and were removed from the data:
+      - EIN
+      - Name
+      
 - ### Compiling, Training, and Evaluating the Model
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
   - Were you able to achieve the target model performance?
