@@ -44,6 +44,9 @@ Using knowledge of machine learning and neural networks create a binary classifi
       
 - ### Compiling, Training, and Evaluating the Model
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    - Intitial Model:
+    The final number of features for the model was around 42.  For the intial evaluation I chose two hidden layers, the first hidden layer was 40, the second hidden layer was 5. "relu" was the activation used on this first model.
+    
   - Were you able to achieve the target model performance?
   - What steps did you take to try and increase model performance?
 
